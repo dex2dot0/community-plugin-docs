@@ -15,7 +15,7 @@ const config = {
   favicon: 'favicons/favicon.ico',
   organizationName: 'dex2dot0', // Usually your GitHub org/user name.
   projectName: 'community-plugin-docs', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
   presets: [
     [
       'classic',
