@@ -9,7 +9,7 @@ const config = {
   title: 'Community Plugin',
   tagline: 'A community built and maintained plugin focused on rapidly creating innovative solutions for Encompass ©',
   url: 'https://dex2dot0.github.io',
-  baseUrl: '/',
+  baseUrl: '/community-plugin-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicons/favicon.ico',
