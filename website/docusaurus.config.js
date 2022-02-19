@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Community Plugin',
   tagline: 'A community built and maintained plugin focused on rapidly creating innovative solutions for Encompass ©',
-  url: 'https://github.com',
+  url: 'https://dex2dot0.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicons/favicon.ico',
   organizationName: 'dex2dot0', // Usually your GitHub org/user name.
-  projectName: 'community-plugin-docs', // Usually your repo name.
+  projectName: 'dex2dot0.github.io', // Usually your repo name.
   trailingSlash: false,
   presets: [
     [
