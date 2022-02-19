@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicons/favicon.ico',
   organizationName: 'dex2dot0', // Usually your GitHub org/user name.
-  projectName: 'dex2dot0.github.io', // Usually your repo name.
+  projectName: 'community-plugin-docs', // Usually your repo name.
   trailingSlash: false,
   presets: [
     [
