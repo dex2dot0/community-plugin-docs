@@ -1,20 +1,43 @@
-name: Deploy to GitHub Pages
+name: documentation
 
 on:
   push:
-    branches: [main]
-    paths: [website/**]
+    branches:
+      - main
+  # Allow manually triggering the workflow.
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: ./website
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+  checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
         with:
-          node-version: 14.x
-          cache: yarn
+          node-version: '14.x'
+      - name: Test Build
+        run: |
+          if [ -e yarn.lock ]; then
+            yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+            npm ci
+          else
+            npm i
+          fi
+            yarn run build
+
+  gh-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
       - name: Build website
         working-directory: website
         run: |
