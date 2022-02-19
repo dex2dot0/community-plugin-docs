@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicons/favicon.ico',
-  organizationName: 'Encompass', // Usually your GitHub org/user name.
-  projectName: 'Community Plugin', // Usually your repo name.
+  organizationName: 'dex2dot0', // Usually your GitHub org/user name.
+  projectName: 'ommunity-plugin-docs', // Usually your repo name.
   presets: [
     [
       'classic',
