@@ -6,38 +6,20 @@ on:
     paths: [website/**]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Nodejs and npm
-        uses: actions/setup-node@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: "14"
-
-      - name: Setup yarn
-        run: npm install -g yarn
-
-      - name: Setup Nodejs with yarn caching
-        uses: actions/setup-node@v2
-        with:
-          node-version: "14"
+          node-version: 14.x
           cache: yarn
-
-      - name: Install dependencies
-        run: yarn
-
-      - run: yarn run build
+      - name: Build website
+        working-directory: website
+        run: |
+          yarn install --frozen-lockfile
+          yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
