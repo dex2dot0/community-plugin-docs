@@ -15,7 +15,7 @@ const config = {
   favicon: 'favicons/favicon.ico',
   organizationName: 'Encompass', // Usually your GitHub org/user name.
   projectName: 'Community Plugin', // Usually your repo name.
-
+  trailingSlash: true,
   presets: [
     [
       'classic',
