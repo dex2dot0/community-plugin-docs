@@ -9,7 +9,7 @@ on:
       - 'website/**'
 
 jobs:
-  checks:
+  build-and-deploy:
     runs-on: ubuntu-latest
     defaults:
       run:
