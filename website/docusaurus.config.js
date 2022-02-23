@@ -22,9 +22,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/zacksharkey/CommunityPlugin',
+          editUrl: 'https://github.com/zacksharkey/CommunityPlugin/website',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
