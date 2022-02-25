@@ -1,3 +1,0 @@
-# Email Trigger Automater
-
-TBD...

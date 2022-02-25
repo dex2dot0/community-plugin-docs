@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome
 
-Welcome to the CommunityPlugin docs!
+Welcome to the Community Plugin docs!
 
 ## Disclamer
 
@@ -12,7 +12,7 @@ This Plugin was created to use for free at your own risk. Always test this softw
 
 ### Introduction
 
-This Plugin was built in an effort to help the community rapidly create ideas in Encompass.
+This Plugin was built in an effort to help the community rapidly create and implement ideas in Encompass. This inclues a collection of tools that can be used to help you manage, automate, and adminster Encompass. More information on each tool, its functionality, and settings configuration can be found in this section.
 
 ### Tutorials
 
