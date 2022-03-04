@@ -46,9 +46,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'documentation/intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'doc',
+            docId: 'development/index',
+            position: 'left',
+            label: 'Development',
           },
           {
             href: 'https://github.com/zacksharkey/CommunityPlugin',

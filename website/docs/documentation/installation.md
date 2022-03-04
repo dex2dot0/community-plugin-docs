@@ -14,10 +14,6 @@ If you are a member of the Basecamp group, you can install the Community Plugin 
 
 <iframe width="100%" height="720" src="https://www.youtube.com/embed/qCfEzv1NXco" title="Community Plugin Installation" frameborder="0" allowfullscreen></iframe>
 
-## Installing from GitHub
+## Installing Outside Basecamp
 
-It is recommended that you install from Basecamp as that will be much more straight forward. However, if you would like to develop or extend the Community Plugin you will need to create your own installation file. To create an install file using the source code, you will need to:
-
-1. Clone/download the Community Plugin [repository](https://github.com/zacksharkey/CommunityPlugin) from GitHub
-2. Open the project in Visual Studio
-3. Build the project to create a DLL file
+It is recommended that you install from Basecamp as that will be much more straightforward. However, for those that want to develop or extend the Community Project or build from source, instructions are available in the [developer documentation installation](/docs/development/installation) guide. 

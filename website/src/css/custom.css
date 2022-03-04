@@ -16,6 +16,11 @@
   --ifm-code-font-size: 95%;
 }
 
+.navbar__link--active {
+  color: #ED7F55;
+  text-decoration: underline;
+}
+
 a {
   color: #ED7F55;
 }

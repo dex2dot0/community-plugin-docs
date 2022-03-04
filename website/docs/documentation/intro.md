@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome
 
-Welcome to the Community Plugin docs!
+Welcome to the Community Plugin docs! These documents are focused on the user facing features of the Community Plugin. If you are looking for the developer documentation, please see the [developer documentation](/docs/development).
 
 ## Disclamer
 
