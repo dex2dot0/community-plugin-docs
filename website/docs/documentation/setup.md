@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Setup
 
-Setting up the Community Plugin by providing either persona based or user specific access to [Tools](/docs/tools).
+Setting up the Community Plugin by providing either persona based or user specific access to [Tools](/docs/documentation/tools).
 
 ## Plugin Managment
 
@@ -18,4 +18,4 @@ After installing the Community Plugin, you will be able to access the Plugin Man
 2. Click the Encompass menu in the top left
 3. Expand the Community Menu
 4. Click the Plugin Management option
-5. Configure access to the different [tools](/docs/tools) the Community Plugin provides by either specifying access to persona or user
+5. Configure access to the different [tools](/docs/documentation/tools) the Community Plugin provides by either specifying access to persona or user

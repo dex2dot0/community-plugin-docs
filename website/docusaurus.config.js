@@ -9,7 +9,7 @@ const config = {
   title: 'Community Plugin',
   tagline: 'A community built and maintained plugin focused on rapidly creating innovative solutions for Encompass ©',
   url: 'https://dex2dot0.github.io',
-  baseUrl: '/community-plugin-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicons/favicon.ico',
@@ -22,7 +22,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/zacksharkey/CommunityPlugin/website',
@@ -45,16 +44,16 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'documentation/intro',
+            to: 'docs/documentation/intro',
             position: 'left',
             label: 'Docs',
+            activeBasePath: 'docs/documentation',
           },
           {
-            type: 'doc',
-            docId: 'development/index',
+            to: 'docs/development/intro',
             position: 'left',
             label: 'Development',
+            activeBasePath: 'docs/development',
           },
           {
             href: 'https://github.com/zacksharkey/CommunityPlugin',
@@ -71,7 +70,16 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/documentation/intro',
+              },
+            ],
+          },
+          {
+            title: 'Development',
+            items: [
+              {
+                label: 'Development',
+                to: '/docs/development/intro',
               },
             ],
           },
