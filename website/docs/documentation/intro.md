@@ -13,11 +13,11 @@ This plugin was created to use for free at your own risk. It is always recommend
 
 For more information on the licensing agreement related to warrantless usage, copying, distribution, etc. of this plugin please refer to the [license agreement](/docs/documentation/license).
 
-### Introduction
+### Introduction :beginner:
 
 This Plugin was built in an effort to help the community rapidly create and implement ideas in Encompass. This inclues a collection of tools that can be used to help you manage, automate, and adminster Encompass. More information on each tool, its functionality, and settings configuration can be found in this section.
 
-### Tutorials
+### Tutorials :movie_camera:
 
 Developing past the SDK https://www.youtube.com/watch?v=eDwdoq3rKOc
 
