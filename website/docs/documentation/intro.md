@@ -8,7 +8,9 @@ Welcome to the Community Plugin docs! These documents are focused on the user fa
 
 ## Disclamer :exclamation:
 
-This Plugin was created to use for free at your own risk. Always test this software in your test environment first.
+This plugin was created to use for free at your own risk. It is always recommended that you test this software in your test environment first. :point_left: 
+
+For more information on the licensing agreement related to warrantless usage, copying, distribution, etc. of this plugin please refer to the [license agreement](/docs/documentation/license).
 
 ### Introduction
 
