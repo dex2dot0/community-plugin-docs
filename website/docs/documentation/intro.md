@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Welcome
+# Welcome :open_hands:
 
 Welcome to the Community Plugin docs! These documents are focused on the user facing features of the Community Plugin. If you are looking for the developer documentation, please see the [developer documentation](/docs/development/intro).
 
-## Disclamer
+## Disclamer :exclamation:
 
 This Plugin was created to use for free at your own risk. Always test this software in your test environment first.
 
