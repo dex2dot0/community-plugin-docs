@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
+sidebar_label: Welcome
 ---
 
 # Welcome :open_hands:
 
-Welcome to the Community Plugin docs! These documents are focused on the user facing features of the Community Plugin. If you are looking for the developer documentation, please see the [developer documentation](/docs/development/intro).
+Welcome to the Community Plugin docs! These documents are focused on the user/admin facing features of the Community Plugin. If you are looking for the developer documentation, please see the [developer documentation](/docs/development/intro).
 
 ## Disclamer :exclamation:
 
