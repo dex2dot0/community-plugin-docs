@@ -11,3 +11,4 @@ Use a client to run automated emails.
 ## Usage
 
 **More info needed.**
+**Error on enabling in Plugin Managment > Automailer. Issue submitted on GitHub**
