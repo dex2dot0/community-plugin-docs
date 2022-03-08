@@ -25,6 +25,4 @@ Field Calculations https://www.youtube.com/watch?v=8T9deHoDOjw
 
 ### Settings
 
-The new Plugin Management Screen is where you will setup all of your plugin access rights.
-
-* [Tools](/docs/documentation/tools)
+The new [Plugin Management Screen](/docs/documentation/setup) is where you will setup all of your plugin access rights.
