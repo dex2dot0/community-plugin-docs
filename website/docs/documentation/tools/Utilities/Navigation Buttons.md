@@ -4,7 +4,7 @@
 
 Ever want to be able to jump back and forth between input forms like you are used to doing on a web browser? The Community Plugin navigation buttons feature has you covered. :punch:
 
-![Navigation Buttons Preview Example](./BackAndForward Screenshot.png
+![Navigation Buttons Preview Example](/img/BackAndForwardScreenshot.png)
 
 ## Setup
 
