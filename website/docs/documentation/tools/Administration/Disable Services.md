@@ -43,9 +43,7 @@ And then enabled users would see the following, like magic:
 
 ![Disabled Services Example 1](/img/DisableServices/RestrictedServicesExample1.png)
 
-Or a more drastic example:
-
-Set CX.DISABLE.SERVICES to:
+Or a more drastic example, set CX.DISABLE.SERVICES to:
 `
 Credit Report, Lenders, Product and Pricing, Underwriting, Flood Certification, Title & Closing, Doc Preparation, MERS, Mortgage Insurance, Fraud/Audit Services, HMDA Management, Additional Services, AVM, Investors, Appraisal
 `
@@ -78,6 +76,7 @@ And then the user would see the following when accessing Services > Access Lende
 4. After the user clicks OK, the Lenders in the menu will be disabled based on what has been populated to CX.DISABLE.SERVICES. For example:
 
 If CX.DISABLE.SERVICES is populated with:
+
 `
 Branch Banking & Trust Co. Correspondent, Branch Banking & Trust Co. Wholesale, Chase Correspondent
 `
