@@ -68,6 +68,7 @@ The restrictions don't just stop at the top-level services menu. In addition, yo
 
 `
 Branch Banking & Trust Co. Correspondent, Branch Banking & Trust Co. Wholesale, Chase Correspondent
+`
 
 And then the user would see the following when accessing Services > Access Lenders which includes a pop-up message:
 
