@@ -35,3 +35,7 @@ Need to play around with some different scenarios but don't want to actually mak
 6. If you try and save the loan, you should see a popup message like the following:
 
 ![No Saving Allowed](/img/ReadOnly/SaveRestricted.png)
+
+7. Upon exiting the loan, the user will get a popup notifying them that their changes will not be saved:
+
+![Changes Not Saved](/img/ReadOnly/ChangesNotSaved.png)
