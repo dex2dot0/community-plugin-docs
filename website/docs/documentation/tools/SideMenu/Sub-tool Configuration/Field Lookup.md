@@ -3,7 +3,11 @@ sidebar_position: 1
 sidebar_label: Field Lookup
 ---
 
-# Setup
+## Features
+
+The Field Lookup tool available in the Side Menu allows users to quickly search, update, and go to fields including standard fields, custom fields. Additionally, the tool can set some read-only fields, such as field 3142. **The tool does not currently support virtual fields.**
+
+## Setup
 
 1. In Encompass
 2. Click on the Settings Menu
@@ -22,16 +26,20 @@ sidebar_label: Field Lookup
 
 1. In Encompass
 2. Open a loan file
-3. On the right side, if the user has been given access to the Side Menu in the Community Plugin settings, they can click on the Open Menu button to expand the Side Menu
+3. On the right side of Encompass, if the user has been given access to the Side Menu in the Community Plugin settings, they can click on the Open Menu button to expand the Side Menu
 4. Once the Side Menu has been expanded, the user, if provided access should see the Field Lookup tool:
 
 ![Field Lookup Tool](/img/SideMenu/FieldLookupTool.png)
 
-5. Once expanded, the user can utilize the Field Lookup tool to either search or update fields including:
+5. When the Field Lookup is expanded, the user can utilize the Field Lookup tool to either search or update fields including:
 
 - Custom Fields
 - Standard Fields
 - Some read-only fields such as field 3142
 
-6. Clicking the Search button will reveal the value associated to the specified field.
+6. Clicking the Search button will reveal the value associated to the specified field:
+
+![Field Search Example](/img/SideMenu/FieldSearch.png)
+
 7. Entering a value and clicking the Set button will override and replace the current value for the given field.
+8. Entering a value in the search box and clicking the GoTo button will take the user to the nearest form that contains that field. The GoTo button can be clicked multiple times to advance to the next form that contains that same field. 
