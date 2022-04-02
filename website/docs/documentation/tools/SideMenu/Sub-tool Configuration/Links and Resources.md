@@ -5,10 +5,11 @@ sidebar_label: Links and Resources
 
 ## Features
 
-With the Links and Resources tool in the Side Menu, you can create quick links and actions including: 
+With the Links and Resources tool in the Side Menu, you can create quick links and actions including:
 
-[//]: # "TODO"
-**Need to test what is avialable and how it works.**
+[//]: # 'TODO'
+
+**Need to test what is available and how it works.**
 
 - Hyperlinks to web pages
 - Email popups that can include subject, email body, and email address(es) to send to
@@ -41,5 +42,4 @@ With the Links and Resources tool in the Side Menu, you can create quick links a
 3. On the right side of Encompass, if the user has been given access to the Side Menu in the Community Plugin settings, they can click on the Open Menu button to expand the Side Menu
 4. Once the Side Menu has been expanded, the user, if provided access should see the Links and Resources tool:
 
-
-5. 
+5.
