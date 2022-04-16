@@ -93,15 +93,6 @@ const config = {
 							},
 						],
 					},
-					{
-						title: 'More',
-						items: [
-							{
-								label: 'GitHub',
-								href: 'https://github.com/facebook/docusaurus',
-							},
-						],
-					},
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} Zachary Sharkey<br>
         Encompass® is a trademark of the entities of ICE Mortgage Technology.`,
