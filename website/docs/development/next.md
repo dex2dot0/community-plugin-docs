@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # What's Next?
 
-This site is still under development. The best source of information we have at this time would be to refer to the following video until we can make further updates:
+This site is still under development. The best source of information we have at this time would be to refer to the following videos until we can make further updates:
 
 ## Debugging
 
