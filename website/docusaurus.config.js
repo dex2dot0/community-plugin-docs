@@ -10,7 +10,7 @@ const config = {
 	tagline:
 		'A community built and maintained plugin focused on rapidly creating innovative solutions for Encompass ©',
 	url: 'https://community-plugin.com/',
-	baseUrl: '/community-plugin-docs/',
+	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'favicons/favicon.ico',
@@ -41,7 +41,7 @@ const config = {
 				title: 'Home',
 				logo: {
 					alt: 'Community Plugin Logo',
-					src: 'logos/logo 3600x3600 green.svg',
+					src: 'img/logos/logo 3600x3600 green.svg',
 				},
 				items: [
 					{
