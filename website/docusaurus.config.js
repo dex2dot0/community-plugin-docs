@@ -10,7 +10,7 @@ const config = {
 	tagline:
 		'A community built and maintained plugin focused on rapidly creating innovative solutions for Encompass ©',
 	url: 'https://community-plugin',
-	baseUrl: '/community-plugin-docs/',
+	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'favicons/favicon.ico',
