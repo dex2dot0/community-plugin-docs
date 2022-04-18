@@ -41,7 +41,7 @@ const config = {
 				title: 'Home',
 				logo: {
 					alt: 'Community Plugin Logo',
-					src: 'img/logos/logo 3600x3600 green.svg',
+					src: 'logos/logo 3600x3600 green.svg',
 				},
 				items: [
 					{
