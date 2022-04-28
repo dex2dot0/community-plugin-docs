@@ -21,7 +21,7 @@ Traditionally, admins were limited from restricting access to loans by either us
 
 ## Usage
 
-1. In Encompass, with a user that has been given permissions to the Grid Search in the steps above:
+1. In Encompass, with a user that has been given permission
 2. Go to the Pipeline tab
 3. Right click on any loan
 4. Select the **Mark As VIP** option
