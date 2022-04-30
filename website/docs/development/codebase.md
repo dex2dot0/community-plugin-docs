@@ -51,6 +51,8 @@ namespace CommunityPlugin.Standard_Plugins.Forms.CodebaseAssemblies.SettingsExtr
 7. After you have completed the codebase in My_Form.cs, open Attach_Sample.cs and a reference to your new class (where the new class in My_Form.cs is My_Form and the name of your input form is My Form), e.g.:
 
 ```
+// Attach_Sample.cs Example
+
 namespace CommunityPlugin.Standard_Plugins.Forms.CodebaseAssemblies.SettingsExtract
 {
     public class Attach_Sample : Plugin, ILogin
