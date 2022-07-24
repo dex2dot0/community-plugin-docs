@@ -2,7 +2,7 @@
 
 ## Features
 
-Need a screenshot of the input form you've worked up to be added to the eFolder? This tool can do that to save you from having to create a custom print form that contains the same information but in different formatting. That or making an awkward screenshot of the input form. Very handy indeed! :100:
+Need a screenshot of the input form you've worked up to be added to the eFolder? This tool can do exactly that to save you from having to create a custom print form or make an awkward screenshot of the input form. Very handy indeed! :100:
 
 ## Setup
 
@@ -22,25 +22,26 @@ Enabling the Input Form Automator is as simple as:
 
 ### Create CX.PRINT.FORM field
 
-The custom field should be a String format with a suitable length to fit the size of how you name you input forms. For shorter input form names, such as "Loan Details", a length of 32 will likely be suitable. For longer input form names such as "Operations - Loan Information - Borrower Detials", a length of 100 will likely be suitable however the length of the field is ultimately up to you and should cover all scenarios for your environment.
+The custom field should be a String format with a suitable length to fit the size of your document placeholder name(s) that you will be printing to (or creating with the tool itself).
 
 ![CX.PRINT.FORM](/img/PrintToEFolder/CX_PRINT_FORM.png)
 
-### Set CX.PRINT.FORM to the name of the input form you want to print on a triggered basis/event
+### Set CX.PRINT.FORM to the name of the document placeholder you want the screenshot added to
 
-1. Create a new field trigger or any other event you want to trigger the input form to be printed on.
-2. Set the CX.PRINT.FORM field to the name of the input form you want to print.
-3. The input form will then print on the event you've specified.
-4. The document placeholder in the eFolder will reflect the name of the input form you've printed.
-
-## Usage
-
-1. Once you have enabled and configured the Print Input Form to eFolder plugin
-2. In Encompass
-3. Upon opening a loan, if the user has been provided access to the tool, once CX.PRINT.FORM is set to the name of the input form you want to print, the input form will print on the event you've specified.
+1. Create a new field trigger or any other event you want to trigger the input form screenshot to be printed on (such as form code).
+2. Set the CX.PRINT.FORM field to the name of the document placeholder you want to print to.
 
 :::caution
 
-This might only work if the input form that the user is currently on is the one that you are trying to print. Additionally, the user must have access to the input form that you are trying to print.
+The document placeholder must already be in the eFolder. If it isn't then a new document placeholder will be created and named as the same name of your input form
 
 :::
+
+3. Re-use and re-trigger as needed.
+
+## Usage
+
+1. Once you have enabled and configured the Print Input Form to eFolder plugin,
+2. In Encompass when the user is in a loan,
+3. If the user has been provided access to the tool, once CX.PRINT.FORM is set, a screenshot of the input form will print on the event you've specified and be availabe in the eFolder under the document placeholder that was set for CX.PRINT.FORM.
+4. The document attachment will be named Screenshot - followed by whatever you've set CX.PRINT.FORM to. For example, if CX.PRINT.FORM is set to "Awesome Form", the document attachment will be named Screenshot - Awesome Form.
