@@ -1,3 +1,9 @@
+---
+sidebar_label: Automailer 🚧
+---
+
+<underconstruction />
+
 # Automailer
 
 ## Features

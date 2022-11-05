@@ -1,3 +1,9 @@
+---
+sidebar_label: Pipeline Advanced Search 🚧
+---
+
+<underconstruction/>
+
 # Pipeline Advanced Search
 
 ## Features

@@ -1,7 +1,9 @@
 ---
 sidebar_position: 3
-sidebar_label: Loan Information
+sidebar_label: Loan Information 🚧
 ---
+
+<underconstruction />
 
 ## Features
 

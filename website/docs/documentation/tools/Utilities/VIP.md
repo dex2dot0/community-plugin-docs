@@ -1,3 +1,9 @@
+---
+sidebar_label: VIP Loans 🚧
+---
+
+<underconstruction />
+
 # VIP Loans
 
 ## Features
