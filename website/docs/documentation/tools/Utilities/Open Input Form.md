@@ -6,6 +6,12 @@ Are your users tired of being blocked from working in Encompass while viewing an
 
 The Input Form Pop-Out will allow you to enable your users to open eFolder documents while continuing work within input forms in Encompass. Win:tada: Win:tada:
 
+:::caution
+
+This tool is intended to be used with custom forms and may not work properly for standard forms or tools
+
+:::
+
 ## Setup
 
 This tool requires two custom fields to be created in Encompass. 
