@@ -13,7 +13,7 @@ Need an easy way to pop-up an eFolder document with a business rule or custom co
 
 ## Usage
 
-Once a business rule, plugin, or other business logic has been established to set [CX.OPENDOCUMENT] to a document nameL
+Once a business rule, plugin, or other business logic has been established to set [CX.OPENDOCUMENT] to a document name:
 
 1. Open a test loan
 2. Perform a function that should trigger the logic to fire. For example, if you created a field trigger business rule based on changing [1393] = "Application denied", go in to a loan and change the Loan Status so it reflects as application denied.
