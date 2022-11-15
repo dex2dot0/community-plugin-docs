@@ -4,8 +4,6 @@ sidebar_label: Automailer 🚧
 
 <underconstruction />
 
-# Automailer
-
 ## Features
 
 Automated emails with integrated reports straight from Encompass. With Automailer, you can setup reports to be delivered on an automated schedule to get your users and stakeholders the right information at the right time! :punch:
