@@ -8,6 +8,10 @@ sidebar_label: eFolder Request and Retrieve 🚧
 
 Automate requesting and retrieving eFolder documents through business rules. This tool utilizes the same process you'd normally use for document request and retrieval but allows for this to be performed in an automated way to help streamline your process and save your user's time! 
 
+:::caution
+If you are using a 3rd party service to request and retrieve documents, this tool may not work properly. This tool is designed to work with the standard Encompass eFolder request and retrieve processes and 3rd party services that override or change the standard functionality may cause this tool to not work properly.
+:::
+
 ## Setup
 
 ### Enable eFolder Request and Retrieve
@@ -32,3 +36,25 @@ The custom field should be a String format with a suitable length to fit the siz
 The custom field should be a String format with a suitable length to fit the size of your document placeholder name(s) that you will be retrieving. 
 
 ![CX.EFOLDER.RETRIEVE](/img/eFolderRequestRetrieve/CX_EFOLDER_RETRIEVE.png)
+
+## Usage
+
+### Requesting eFolder Documents
+
+1. Once you have enabled and configured the eFolder Request and Retrieve plugin,
+2. Create a new field trigger or any other event you want to trigger the document request from
+3. The triggering event should set the CX.EFOLDER.REQUEST field to the name of the document placeholder(s) you want to request, with each document separated by a comma for example:
+
+`Borrower Authorization to Release Information,Paystubs,W2`
+
+4. Once the field is set to a valid list of documents, the eFolder Request window will open and the documents will be listed and checked for the request to be completed. 
+
+### Retrieving eFolder Documents
+
+1. Once you have enabled and configured the eFolder Request and Retrieve plugin,
+2. Create a new field trigger or any other event you want to trigger the document retrieval from
+3. The triggering event should set the CX.EFOLDER.RETRIEVE field to the name of the document placeholder(s) you want to retrieve, with each document separated by a comma for example:
+
+`Borrower Authorization to Release Information,Paystubs,W2`
+
+4. Once the field is set to a valid list of documents, the eFolder Retrieve window will open and the documents will be listed and checked for the retrieval to be completed.
