@@ -25,19 +25,63 @@ If you have lots of Encompass settings, you may have always wished for a way to 
 
 ![Encompass Settings Menu](/img/EncompassSettingsMenu.png)
 
-4. Go to the Business Rule settings
-5. Select any of the following business rules:
+4. Launch the Encomass settings menu and click on Settings
+5. The following areas of the settings are currently supported for the settings grid search (this may not be an exhaustive list):
 
-   - Loan Folder Business Rule
-   - Milestone Completion
-   - Field Data Entry
-   - Field Triggers
-   - Automated Conditions
-   - Persona Access to Fields
-   - Persona Access to Loans
-   - Input Form List
-   - Loan Form Printing
-   - Collateral Tracking
+   **Company Information**
+   - [x] Company Information
+   - [x] Services Password Management
+   - [x] Personas
+   - [x] Organizations/Users
+   - [x] Roles
+   - [x] Milestones
+
+   **External Company Setup**
+   - [x] TPO Settings
+
+   **Loan Setup**
+   - [x] Loan Folders
+   - [x] Loan Duplication
+   - [x] Alerts
+   - [x] Tasks
+   - [x] Default Input Forms
+   - [x] Condition Forms
+   - [x] Custom Print Forms
+   - [x] Print Form Groups
+   - [x] Loan Custom Fields
+   - [x] Changed Circumstance Setup
+   - [x] Disclosure Tracking Settings
+   - [x] Trustee List
+   - [x] Piggyback Loan Synchronization
+   - [x] Sync Templates
+   - [x] Zipcode Setup
+   - [x] HMDA Profiles
+   - [x] NMLS Setup
+
+   **eFolder Setup**
+   - [x] Documents
+   - [x] Document Export Templates
+   - [x] Document Groups
+   - [x] Document Identification
+   - [x] Conditions
+   - [x] Condition Sets
+   - [x] Post-Closing Conditions
+   - [x] Post-Closing Condition Sets
+   - [x] HTML Email Templates
+
+   **Business Rules**
+   - [x] Loan Folder Business Rule
+   - [x] Milestone Completion
+   - [x] Field Data Entry
+   - [x] Field Triggers
+   - [x] Automated Conditions
+   - [x] Persona Access to Fields
+   - [x] Persona Access to Loans
+   - [x] Input Form List
+   - [x] Loan Folder List
+   - [x] Loan Form Printing
+   - [x] Collateral Tracking
+
 
 6. A search box should appear in the settings panel:
 
