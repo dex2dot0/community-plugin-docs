@@ -1,7 +1,4 @@
----
-sidebar_position: 2
-sidebar_label: Links and Resources 🚧
----
+# Links and Resources Setup 🚧
 
 <underconstruction/>
 
@@ -9,20 +6,16 @@ sidebar_label: Links and Resources 🚧
 
 With the Links and Resources tool in the Side Menu, you can create quick links and actions including:
 
-[//]: # 'TODO'
-
-**Need to test what is available and how it works.**
-
-- Hyperlinks to web pages
-- Email popups that can include subject, email body, and email address(es) to send to
+- Hyperlinks to external web pages
+- Email popups that can include a pre-populated subject and send to fields
 - Print forms
 - Input form popups
-- Go to a speific input form
-- Open a specific eFolder document
+- Shortcuts to go to a specific input form
+- Opening a specific eFolder document
 - Displaying a specific service
 - Running pricing
 
-## Setup
+## Setup Tool Access
 
 1. In Encompass
 2. Click on the Settings Menu
@@ -37,11 +30,18 @@ With the Links and Resources tool in the Side Menu, you can create quick links a
 
 6. Provide either All Access or more fine grained access by persona or individual user accounts.
 
+## Additional Setup
+
+Refer to each sub section respectively to learn more about configuring the various link and resource options available. 
+
 ## Usage
 
-1. In Encompass
+1. In Encompass, once a specific link or resource has been configured as per further instructions for each link or resource type (hyperlinks, forms, emails, etc)
 2. Open a loan file
 3. On the right side of Encompass, if the user has been given access to the Side Menu in the Community Plugin settings, they can click on the Open Menu button to expand the Side Menu
 4. Once the Side Menu has been expanded, the user, if provided access should see the Links and Resources tool:
+5. Upon clicking on the tool, the user should see the configured links and resources:
 
-5.
+### Emails
+
+

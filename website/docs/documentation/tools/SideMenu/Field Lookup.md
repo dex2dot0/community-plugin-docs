@@ -1,11 +1,17 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 sidebar_label: Field Lookup
 ---
 
 ## Features
 
-The Field Lookup tool available in the Side Menu allows users to quickly search, update, and go to fields including standard fields, custom fields. Additionally, the tool can set some read-only fields, such as field 3142. **The tool does not currently support virtual fields.**
+The Field Lookup tool available in the Side Menu allows users to quickly search, update, and go to fields including standard fields, custom fields. Additionally, the tool can set some read-only fields, such as field 3142. 
+
+:::info
+
+**The tool does not currently support virtual fields.**
+
+:::
 
 ## Setup
 
@@ -21,6 +27,7 @@ The Field Lookup tool available in the Side Menu allows users to quickly search,
 ![Plugin Managemnt Dropdown](/img/SideMenu/FieldLookupDropdown.png)
 
 6. Provide either All Access or more fine grained access by persona or individual user accounts.
+7. Users will need to logout and back in for the changes to take effect.
 
 ## Usage
 

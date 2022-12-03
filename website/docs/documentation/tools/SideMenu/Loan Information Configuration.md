@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-sidebar_label: Loan Information 🚧
+sidebar_position: 4
+sidebar_label: Loan Information Setup 🚧
 ---
 
 <underconstruction />
