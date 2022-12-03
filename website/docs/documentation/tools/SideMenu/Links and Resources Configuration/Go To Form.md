@@ -2,8 +2,6 @@
 sidebar_label: Forms
 ---
 
-<underconstruction />
-
 ## Setup
 1. In Encompass
 2. Click on the Settings Menu
