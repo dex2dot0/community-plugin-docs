@@ -16,9 +16,9 @@ jobs:
         working-directory: website
     steps:
       - name: Create dotenv File
-        uses: iamsauravsharma/create-dotenv@v1.2.2
-          env: # env available for only this steps
-            POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
+      uses: iamsauravsharma/create-dotenv@v1.2.2
+        env: # env available for only this steps
+          POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
       - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
