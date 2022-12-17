@@ -20,7 +20,10 @@ const config = {
 	customFields: {
 		// Put your custom environment here
 		posthogApiKey: process.env.POSTHOG_API_KEY,
-	  },
+	},
+	plugins: [
+        'docusaurus2-dotenv'
+    ],
 	presets: [
 		[
 			'classic',
