@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import posthog from 'posthog-js'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -27,6 +28,7 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+  posthog.init(siteConfig.posthogApiKey { api_host: 'https://app.posthog.com' })
   return (
     <Layout
       title={`${siteConfig.title}`}

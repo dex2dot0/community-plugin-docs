@@ -17,17 +17,10 @@ const config = {
 	organizationName: 'dex2dot0', // Usually your GitHub org/user name.
 	projectName: 'community-plugin-docs', // Usually your repo name.
 	trailingSlash: false,
-	plugins: [
-		["docusaurus2-dotenv", {}],
-		[
-			"posthog-docusaurus",
-			{
-			apiKey: process.env.POSTHOG_API_KEY,
-			enableInDevelopment: false, // optional
-			// other options are passed to posthog-js init as is
-			},
-		],
-	],
+	customFields: {
+		// Put your custom environment here
+		posthogApiKey: process.env.POSTHOG_API_KEY,
+	  },
 	presets: [
 		[
 			'classic',
