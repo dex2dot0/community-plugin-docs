@@ -15,9 +15,6 @@ jobs:
       run:
         working-directory: website
     steps:
-      - name: 'Create env file'
-        run: |
-          echo "${{ secrets.ENV_FILE }}" > .env
       - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -38,6 +35,8 @@ jobs:
 
       - run: yarn install --frozen-lockfile
       - run: yarn build
+      - env:
+        POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
