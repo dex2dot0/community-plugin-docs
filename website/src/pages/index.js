@@ -30,7 +30,7 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   const BrowserOnly = useIsBrowser();
-    if (BrowserOnly && window.location.host.includes('localhost')) {
+    if (BrowserOnly && !window.location.host.includes('localhost')) {
       posthog.init(siteConfig.postHogApiKey, { api_host: 'https://app.posthog.com' })
     }
   return (
