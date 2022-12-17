@@ -15,6 +15,10 @@ jobs:
       run:
         working-directory: website
     steps:
+      - uses: TickX/var-to-dotenv@v1.1.1
+        with:
+          key: 'POSTHOG_API_KEY' # [Required]
+          value: ${{secrets.POSTHOG_API_KEY}} # [Required]
       - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
