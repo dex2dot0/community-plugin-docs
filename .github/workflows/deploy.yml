@@ -9,11 +9,15 @@ on:
       - 'website/**'
 
 jobs:
-  create-env-file:
-    name: Create env file
+  create-envfile:
+ 
     runs-on: ubuntu-latest
-      - env: # env available for all steps of jobs
-        POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_TOKEN }}
+ 
+    steps:
+      - name: Make envfile
+        uses: SpicyPizza/create-envfile@v1.3
+        with:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_TOKEN }}
   build-and-deploy:
     runs-on: ubuntu-latest
     defaults:
