@@ -12,8 +12,8 @@ jobs:
   create-env-file:
     name: Create env file
     runs-on: ubuntu-latest
-    env: # env available for all steps of jobs
-      POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_TOKEN }}
+      - env: # env available for all steps of jobs
+        POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_TOKEN }}
   build-and-deploy:
     runs-on: ubuntu-latest
     defaults:

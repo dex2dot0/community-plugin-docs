@@ -19,13 +19,13 @@ const config = {
 	trailingSlash: false,
 	plugins: [
 	[
+		"docusaurus2-dotenv",
 		"posthog-docusaurus",
 		{
 		apiKey: process.env.POSTHOG_API_KEY,
 		enableInDevelopment: false, // optional
 		// other options are passed to posthog-js init as is
 		},
-		"docusaurus2-dotenv",
 	],
 	],
 	presets: [
