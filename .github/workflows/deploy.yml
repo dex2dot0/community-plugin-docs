@@ -17,7 +17,7 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1.3
         with:
-          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_TOKEN }}
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
   build-and-deploy:
     runs-on: ubuntu-latest
     defaults:
