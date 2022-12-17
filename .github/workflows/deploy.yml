@@ -15,6 +15,9 @@ jobs:
       run:
         working-directory: website
     steps:
+      - uses: iamsauravsharma/create-dotenv@v1.2.2
+        env: # env available for only this steps
+          POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
       - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -41,5 +44,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
           publish_dir: ./website/build
