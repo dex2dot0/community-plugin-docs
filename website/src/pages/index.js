@@ -6,12 +6,12 @@ import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import posthog from 'posthog-js'
-import useIsBrowser from '@docusaurus/useIsBrowser';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   const isBrowser = useIsBrowser();
-  if (window.document && !window.location.host.includes('localhost')) {
+  if (ExecutionEnvironment.canUseDOM && !window.location.host.includes('localhost')) {
     console.info('PostHog init');
     posthog.init(siteConfig.postHogApiKey, { api_host: 'https://app.posthog.com' })
   }
