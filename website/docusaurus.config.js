@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+require('dotenv').config()
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,6 +17,10 @@ const config = {
 	organizationName: 'dex2dot0', // Usually your GitHub org/user name.
 	projectName: 'community-plugin-docs', // Usually your repo name.
 	trailingSlash: false,
+	customFields: {
+		// Put your custom environment here
+		postHogApiKey: process.env.POSTHOG_API_KEY,
+	},
 	presets: [
 		[
 			'classic',
