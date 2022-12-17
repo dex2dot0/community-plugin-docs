@@ -43,8 +43,9 @@ jobs:
             ${{ runner.os }}-website-
 
       - run: yarn install --frozen-lockfile
+      - run: echo ${{ secrets.POSTHOG_API_KEY }} 
       - run: yarn build  
-        run: echo ${{ secrets.POSTHOG_API_KEY }}       
+           
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
