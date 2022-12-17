@@ -6,7 +6,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import posthog from 'posthog-js'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -29,11 +29,10 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
-  <BrowserOnly>
-    if (!window.location.host.includes('localhost')) {
+  const BrowserOnly = useIsBrowser();
+    if (BrowserOnly && window.location.host.includes('localhost')) {
       posthog.init(siteConfig.postHogApiKey, { api_host: 'https://app.posthog.com' })
     }
-  </BrowserOnly>
   return (
     <Layout
       title={`${siteConfig.title}`}
