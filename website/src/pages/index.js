@@ -11,7 +11,8 @@ import useIsBrowser from '@docusaurus/useIsBrowser';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   const isBrowser = useIsBrowser();
-  if (isBrowser && !window.location.host.includes('localhost')) {
+  if (window.document && !window.location.host.includes('localhost')) {
+    console.info('PostHog init');
     posthog.init(siteConfig.postHogApiKey, { api_host: 'https://app.posthog.com' })
   }
   return (
