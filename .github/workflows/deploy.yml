@@ -1,6 +1,7 @@
 name: documentation
 
 on:
+  env: POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }} 
   push:
     branches:
       - main
@@ -9,15 +10,6 @@ on:
       - 'website/**'
 
 jobs:
-  create-envfile:
- 
-    runs-on: ubuntu-latest
- 
-    steps:
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1.3
-        with:
-          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
   build-and-deploy:
     runs-on: ubuntu-latest
     defaults:
@@ -43,7 +35,7 @@ jobs:
             ${{ runner.os }}-website-
 
       - run: yarn install --frozen-lockfile
-      - run: echo ${{ secrets.POSTHOG_API_KEY }} 
+
       - run: yarn build  
            
 
