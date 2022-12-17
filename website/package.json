@@ -20,7 +20,6 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "dotenv": "^16.0.3",
-    "posthog-docusaurus": "^2.0.0",
     "posthog-js": "^1.38.1",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
