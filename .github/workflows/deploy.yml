@@ -34,13 +34,12 @@ jobs:
             ${{ runner.os }}-website-
 
       - run: yarn install --frozen-lockfile
-      - run: yarn build
-        env:
-          POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
+      - run: yarn build         
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
           publish_dir: ./website/build
