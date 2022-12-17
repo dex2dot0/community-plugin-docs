@@ -30,6 +30,8 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   const isBrowser = useIsBrowser();
+  console.log(isBrowser);
+  console.log(siteConfig);
   if (isBrowser && window.location.hostname !== 'localhost') {
     posthog.init(siteConfig.posthogApiKey, { api_host: 'https://app.posthog.com' })
   }
