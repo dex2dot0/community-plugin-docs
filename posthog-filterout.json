@@ -1,8 +1,0 @@
-[
-    {
-      "property": "host",
-      "type": "string",
-      "operator": "is_not",
-      "value": "community-plugin.com"
-    }
-  ]
