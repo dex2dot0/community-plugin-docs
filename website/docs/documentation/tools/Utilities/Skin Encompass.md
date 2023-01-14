@@ -42,12 +42,14 @@ Only those that have been given access to edit PluginManagement will be able to 
 
 ![Skin Encompass Form](/img/SkinEncompass/SkinEncompass_Form.png)
 
-15. To set the default button colors for Encompass, click on the Button Color button and select a color theme by selecting a default theme or choosing Define Custom Colors:
+15. You can set a company name by defining it in the Company Name field. 
+
+16. To set the default button colors for Encompass, click on the Button Color button and select a color theme by selecting a default theme or choosing Define Custom Colors:
 
 ![Default Button Colors](/img/SkinEncompass/SkinEncompass_Form_Button_Color.png)
 
-16. Additional customization can be applied to the Banner, Logo, and Icon properties by selecting the following:
+17. Additional customization can be applied to the Banner, Logo, and Icon properties by selecting the following:
 
 ![Banner, Logo, and Icon](/img/SkinEncompass/SkinEncompass_Form_Options.png)
 
-17. TBD
+18. TBD
