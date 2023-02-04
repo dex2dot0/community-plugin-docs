@@ -124,7 +124,7 @@ const config = {
 				appId: '1PUV46FNUI',
 		  
 				// Public API key: it is safe to commit it
-				apiKey: '880ba90f585ac49a55387fb25aeedf55',
+				apiKey: '4bdd8173801582df5547dd39c4e492b9',
 		  
 				indexName: 'community-plugin',
 		  
