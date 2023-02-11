@@ -49,6 +49,13 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			announcementBar: {
+				id: 'archived',
+				isCloseable: false,
+				backgroundColor: '#FEF02B',
+				textColor: '#FF051B',
+				content: 'The Community Plugin has been removed from GitHub and as a result, this site will also unfortunately no longer receive any further updates',
+			},
 			navbar: {
 				title: 'Home',
 				logo: {
