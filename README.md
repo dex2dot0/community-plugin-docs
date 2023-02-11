@@ -1,3 +1,7 @@
+# Archived
+
+This repository is no longer being actively maintained with the retirement of the Community Plugin. 
+
 # Community Plugin Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. This is an awesome tool that allows you to build a documentation website with a free and open source codebase.
